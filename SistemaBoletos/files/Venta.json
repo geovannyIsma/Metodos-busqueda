@@ -1,0 +1,407 @@
+{
+    "controlador.TDA.lista.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Venta",
+                "id": 1,
+                "pasajero": {
+                    "nombre": "MARINA",
+                    "apellido": "ORELLANA",
+                    "DNI": "0702008707",
+                    "telefono": "Na"
+                },
+                "boleto": {
+                    "fechaSalida": "2022-03-02 20:30:00.0 UTC",
+                    "fechaCompra": "2022-03-02 20:00:00.0 UTC",
+                    "destino": "Cuenca",
+                    "origen": "Loja ",
+                    "valor": 3.5
+                }
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.Venta",
+                    "id": 2,
+                    "pasajero": {
+                        "nombre": "ANDRÉS",
+                        "apellido": "RIVERA",
+                        "DNI": "0910847276",
+                        "telefono": "NA"
+                    },
+                    "boleto": {
+                        "fechaSalida": "2022-05-04 19:15:00.0 UTC",
+                        "fechaCompra": "2022-05-04 19:45:00.0 UTC",
+                        "destino": "Guayaquil",
+                        "origen": "Quito",
+                        "valor": 4.2
+                    }
+                },
+                "next": {
+                    "info": {
+                        "@class": "modelo.Venta",
+                        "id": 3,
+                        "pasajero": {
+                            "nombre": "LUIS ",
+                            "apellido": "MARTÍNEZ ",
+                            "DNI": "0702189374",
+                            "telefono": "NA"
+                        },
+                        "boleto": {
+                            "fechaSalida": "2022-01-01 20:15:00.0 UTC",
+                            "fechaCompra": "2022-01-01 19:30:00.0 UTC",
+                            "destino": "Guayaquil",
+                            "origen": "Quito",
+                            "valor": 3.9
+                        }
+                    },
+                    "next": {
+                        "info": {
+                            "@class": "modelo.Venta",
+                            "id": 4,
+                            "pasajero": {
+                                "nombre": "RAFAEL ",
+                                "apellido": "GARCÍA ",
+                                "DNI": 1102850540,
+                                "telefono": "NA"
+                            },
+                            "boleto": {
+                                "fechaSalida": "2022-07-07 22:00:00.0 UTC",
+                                "fechaCompra": "2022-07-07 21:20:00.0 UTC",
+                                "destino": "Quito ",
+                                "origen": "Manta ",
+                                "valor": 3.2
+                            }
+                        },
+                        "next": {
+                            "info": {
+                                "@class": "modelo.Venta",
+                                "id": 5,
+                                "pasajero": {
+                                    "nombre": "CARMEN",
+                                    "apellido": "MORENO",
+                                    "DNI": 1203186091,
+                                    "telefono": "NA"
+                                },
+                                "boleto": {
+                                    "fechaSalida": "2022-09-09 16:50:00.0 UTC",
+                                    "fechaCompra": "2022-09-09 16:10:00.0 UTC",
+                                    "destino": "Machala",
+                                    "origen": "Loja",
+                                    "valor": 4
+                                }
+                            },
+                            "next": {
+                                "info": {
+                                    "@class": "modelo.Venta",
+                                    "id": 6,
+                                    "pasajero": {
+                                        "nombre": "OSCAR",
+                                        "apellido": "JIMÉNEZ",
+                                        "DNI": 1400453799,
+                                        "telefono": "NA"
+                                    },
+                                    "boleto": {
+                                        "fechaSalida": "2022-06-11 19:15:00.0 UTC",
+                                        "fechaCompra": "2022-06-11 18:30:00.0 UTC",
+                                        "destino": "Manta",
+                                        "origen": "Guayaquil",
+                                        "valor": 3.6
+                                    }
+                                },
+                                "next": {
+                                    "info": {
+                                        "@class": "modelo.Venta",
+                                        "id": 7,
+                                        "pasajero": {
+                                            "nombre": "PATRICIO",
+                                            "apellido": "CASTRO",
+                                            "DNI": 1303842726,
+                                            "telefono": "NA"
+                                        },
+                                        "boleto": {
+                                            "fechaSalida": "2023-03-03 21:30:00.0 UTC",
+                                            "fechaCompra": "2023-03-03 20:45:00.0 UTC",
+                                            "destino": "Cuenca",
+                                            "origen": "Machala",
+                                            "valor": 4.2
+                                        }
+                                    },
+                                    "next": {
+                                        "info": {
+                                            "@class": "modelo.Venta",
+                                            "id": 8,
+                                            "pasajero": {
+                                                "nombre": "MARINA",
+                                                "apellido": "SERRANO",
+                                                "DNI": 1801500438,
+                                                "telefono": "NA"
+                                            },
+                                            "boleto": {
+                                                "fechaSalida": "2023-06-06 14:45:00.0 UTC",
+                                                "fechaCompra": "2023-06-06 14:15:00.0 UTC",
+                                                "destino": "Guayaquil",
+                                                "origen": "Quito",
+                                                "valor": 3.8
+                                            }
+                                        },
+                                        "next": {
+                                            "info": {
+                                                "@class": "modelo.Venta",
+                                                "id": 9,
+                                                "pasajero": {
+                                                    "nombre": "FABIÁN",
+                                                    "apellido": "VEGA",
+                                                    "DNI": 1102600705,
+                                                    "telefono": "NA"
+                                                },
+                                                "boleto": {
+                                                    "fechaSalida": "2023-12-09 23:30:00.0 UTC",
+                                                    "fechaCompra": "2023-12-09 23:00:00.0 UTC",
+                                                    "destino": "Loja",
+                                                    "origen": "Machala",
+                                                    "valor": 4.3
+                                                }
+                                            },
+                                            "next": {
+                                                "info": {
+                                                    "@class": "modelo.Venta",
+                                                    "id": 10,
+                                                    "pasajero": {
+                                                        "nombre": "ANDREA",
+                                                        "apellido": "PAREDES",
+                                                        "DNI": 1002253704,
+                                                        "telefono": "NA"
+                                                    },
+                                                    "boleto": {
+                                                        "fechaSalida": "2023-11-02 20:20:00.0 UTC",
+                                                        "fechaCompra": "2023-11-02 19:50:00.0 UTC",
+                                                        "destino": "Quito",
+                                                        "origen": "Guayaquil",
+                                                        "valor": 3.7
+                                                    }
+                                                },
+                                                "next": {
+                                                    "info": {
+                                                        "@class": "modelo.Venta",
+                                                        "id": 11,
+                                                        "pasajero": {
+                                                            "nombre": "JULIA",
+                                                            "apellido": "VALVERDE",
+                                                            "DNI": "0703915926",
+                                                            "telefono": "NA"
+                                                        },
+                                                        "boleto": {
+                                                            "fechaSalida": "2023-12-07 17:15:00.0 UTC",
+                                                            "fechaCompra": "2023-12-07 16:40:00.0 UTC",
+                                                            "destino": "Machala",
+                                                            "origen": "Manta",
+                                                            "valor": 3.5
+                                                        }
+                                                    },
+                                                    "next": {
+                                                        "info": {
+                                                            "@class": "modelo.Venta",
+                                                            "id": 12,
+                                                            "pasajero": {
+                                                                "nombre": "EDUARDO",
+                                                                "apellido": "PALACIOS",
+                                                                "DNI": "0918836685",
+                                                                "telefono": "NA"
+                                                            },
+                                                            "boleto": {
+                                                                "fechaSalida": "2023-11-10 21:35:00.0 UTC",
+                                                                "fechaCompra": "2023-11-10 21:05:00.0 UTC",
+                                                                "destino": "Quito",
+                                                                "origen": "Cuenca",
+                                                                "valor": 4.8
+                                                            }
+                                                        },
+                                                        "next": {
+                                                            "info": {
+                                                                "@class": "modelo.Venta",
+                                                                "id": 13,
+                                                                "pasajero": {
+                                                                    "nombre": "GUSTAVO",
+                                                                    "apellido": "RAMOS",
+                                                                    "DNI": 1803066610,
+                                                                    "telefono": "NA"
+                                                                },
+                                                                "boleto": {
+                                                                    "fechaSalida": "2022-06-05 13:05:00.0 UTC",
+                                                                    "fechaCompra": "2022-06-05 12:35:00.0 UTC",
+                                                                    "destino": "Quito",
+                                                                    "origen": "Machala",
+                                                                    "valor": 4.6
+                                                                }
+                                                            },
+                                                            "next": {
+                                                                "info": {
+                                                                    "@class": "modelo.Venta",
+                                                                    "id": 14,
+                                                                    "pasajero": {
+                                                                        "nombre": "MARÍA",
+                                                                        "apellido": "ELENA",
+                                                                        "DNI": 1102444609,
+                                                                        "telefono": "NA"
+                                                                    },
+                                                                    "boleto": {
+                                                                        "fechaSalida": "2022-08-08 20:35:00.0 UTC",
+                                                                        "fechaCompra": "2022-08-08 20:00:00.0 UTC",
+                                                                        "destino": "Loja",
+                                                                        "origen": "Manta",
+                                                                        "valor": 7.5
+                                                                    }
+                                                                },
+                                                                "next": {
+                                                                    "info": {
+                                                                        "@class": "modelo.Venta",
+                                                                        "id": 15,
+                                                                        "pasajero": {
+                                                                            "nombre": "ROBERTO",
+                                                                            "apellido": "SALAZAR",
+                                                                            "DNI": 1304171885,
+                                                                            "telefono": "NA"
+                                                                        },
+                                                                        "boleto": {
+                                                                            "fechaSalida": "2022-12-11 15:45:00.0 UTC",
+                                                                            "fechaCompra": "2022-12-11 15:15:00.0 UTC",
+                                                                            "destino": "Portoviejo",
+                                                                            "origen": "Quito",
+                                                                            "valor": 4.4
+                                                                        }
+                                                                    },
+                                                                    "next": {
+                                                                        "info": {
+                                                                            "@class": "modelo.Venta",
+                                                                            "id": 16,
+                                                                            "pasajero": {
+                                                                                "nombre": "SANDRA",
+                                                                                "apellido": "VÁSQUEZ",
+                                                                                "DNI": "0919630483",
+                                                                                "telefono": "NA"
+                                                                            },
+                                                                            "boleto": {
+                                                                                "fechaSalida": "2023-09-03 23:20:00.0 UTC",
+                                                                                "fechaCompra": "2023-09-03 22:50:00.0 UTC",
+                                                                                "destino": "Guayaquil",
+                                                                                "origen": "Portoviejo",
+                                                                                "valor": 4.6
+                                                                            }
+                                                                        },
+                                                                        "next": {
+                                                                            "info": {
+                                                                                "@class": "modelo.Venta",
+                                                                                "id": 17,
+                                                                                "pasajero": {
+                                                                                    "nombre": "ALFREDO",
+                                                                                    "apellido": "VELASCO",
+                                                                                    "DNI": "0800581290",
+                                                                                    "telefono": "NA"
+                                                                                },
+                                                                                "boleto": {
+                                                                                    "fechaSalida": "2023-08-05 20:10:00.0 UTC",
+                                                                                    "fechaCompra": "2023-08-05 19:40:00.0 UTC",
+                                                                                    "destino": "Manta",
+                                                                                    "origen": "Loja",
+                                                                                    "valor": 4
+                                                                                }
+                                                                            },
+                                                                            "next": {
+                                                                                "info": {
+                                                                                    "@class": "modelo.Venta",
+                                                                                    "id": 18,
+                                                                                    "pasajero": {
+                                                                                        "nombre": "LAURA",
+                                                                                        "apellido": "MOLINA",
+                                                                                        "DNI": "0300855558",
+                                                                                        "telefono": "NA"
+                                                                                    },
+                                                                                    "boleto": {
+                                                                                        "fechaSalida": "2023-02-08 16:50:00.0 UTC",
+                                                                                        "fechaCompra": "2023-02-08 16:20:00.0 UTC",
+                                                                                        "destino": "Cuenca",
+                                                                                        "origen": "Machala",
+                                                                                        "valor": 3.9
+                                                                                    }
+                                                                                },
+                                                                                "next": {
+                                                                                    "info": {
+                                                                                        "@class": "modelo.Venta",
+                                                                                        "id": 19,
+                                                                                        "pasajero": {
+                                                                                            "nombre": "CARLOS",
+                                                                                            "apellido": "ANDRADE",
+                                                                                            "DNI": "0103821351",
+                                                                                            "telefono": "NA"
+                                                                                        },
+                                                                                        "boleto": {
+                                                                                            "fechaSalida": "2023-04-10 00:25:00.0 UTC",
+                                                                                            "fechaCompra": "2023-04-09 23:55:00.0 UTC",
+                                                                                            "destino": "Quito",
+                                                                                            "origen": "Cuenca",
+                                                                                            "valor": 5.4
+                                                                                        }
+                                                                                    },
+                                                                                    "next": {
+                                                                                        "info": {
+                                                                                            "@class": "modelo.Venta",
+                                                                                            "id": 20,
+                                                                                            "pasajero": {
+                                                                                                "nombre": "GEOVANNY",
+                                                                                                "apellido": "ROMERO",
+                                                                                                "DNI": 1104840499,
+                                                                                                "telefono": "NA"
+                                                                                            },
+                                                                                            "boleto": {
+                                                                                                "fechaSalida": "2023-12-04 22:15:00.0 UTC",
+                                                                                                "fechaCompra": "2023-12-04 21:50:00.0 UTC",
+                                                                                                "destino": "Cuenca",
+                                                                                                "origen": "Loja",
+                                                                                                "valor": 3.6
+                                                                                            }
+                                                                                        },
+                                                                                        "next": {
+                                                                                            "info": {
+                                                                                                "@class": "modelo.Venta",
+                                                                                                "id": 21,
+                                                                                                "pasajero": {
+                                                                                                    "nombre": "JUAN",
+                                                                                                    "apellido": "RAMIREZ",
+                                                                                                    "DNI": 1714721709,
+                                                                                                    "telefono": "Na"
+                                                                                                },
+                                                                                                "boleto": {
+                                                                                                    "fechaSalida": "2023-09-29 01:30:00.0 UTC",
+                                                                                                    "fechaCompra": "2023-09-29 00:30:00.0 UTC",
+                                                                                                    "destino": "Quito",
+                                                                                                    "origen": "Loja",
+                                                                                                    "valor": 4.5
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next\/next"
+        },
+        "lenght": 21
+    }
+}
